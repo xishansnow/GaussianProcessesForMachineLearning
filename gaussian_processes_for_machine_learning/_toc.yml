@@ -1,10 +1,15 @@
 # Table of contents
 # Learn more at https://jupyterbook.org/customize/toc.html
 
-format: jb-article
+format: jb-book
 root: intro
-sections:
-- file: content
-  sections:
-  - file: markdown
-  - file: notebooks
+chapters:
+- file: chapter01-Introduction
+- file: chapter02-Regression
+- file: chapter03-Classification
+- file: chapter04-CovarianceFunctions
+- file: chapter05-ModelSelection
+- file: chapter06-RelationshipWithOtherModels
+- file: chapter07-TheoreticalPerspectives
+- file: chapter08-ApproximationMethodsForLargeDatasets
+- file: chapter09-FurtherIssues
